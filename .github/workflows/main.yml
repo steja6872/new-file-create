@@ -13,10 +13,10 @@ jobs:
              cd C:/Users/ACER/new-file-create
              git init
              git remote add origin https://github.com/steja6872/new-file-create.git
-             git pull
              cp C:/Users/ACER/Desktop/java-programs/reverse.java C:/Users/ACER/new-file-create
              git branch -M main
              git add reverse.java
              git commit -m "Add Java file"
              git status
+             git pull
              git push -u origin main
